@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>DevOps Capstone Project</h1>
+    <h1>DevOps Capstone Project - Auto Deployed!</h1>
     <p>Node.js app running successfully!</p>
     <p>Hostname: ${require('os').hostname()}</p>
   `);
